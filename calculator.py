@@ -29,5 +29,6 @@ Button(root,text='0',height=5,width=10,bd=5,command=lambda:insert(0)).grid(row=4
 Button(root,text='.',height=5,width=10,bd=5,command=lambda:insert('.')).grid(row=4,column=2)
 Button(root,text='=',height=5,width=10,bd=5,command=lambda:result()).grid(row=4,column=3)
 Button(root,text='/',height=5,width=10,bd=5,command=lambda:insert('/')).grid(row=4,column=4)
-
+Button(root,text='mod',height=5,width=10,bd=5,command=lambda:insert('%')).grid(row=5,column=4)
+Label(root,text='HAPPY CALCULATING').grid(row=8,column=3)
 mainloop()

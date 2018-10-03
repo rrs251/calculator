@@ -16,9 +16,9 @@ Button(root,text='9',height=5,width=10,bd=5,command=lambda:insert(9)).grid(row=1
 Button(root,text='8',height=5,width=10,bd=5,command=lambda:insert(8)).grid(row=1,column=2)
 Button(root,text='7',height=5,width=10,bd=5,command=lambda:insert(7)).grid(row=1,column=3)
 Button(root,text='c',height=5,width=10,bd=5,command=lambda:clear()).grid(row=1,column=4)
-Button(root,text='6',height=5,width=10,bd=5,command=lambda:insert(6)).grid(row=2,column=1)
+Button(root,text='4',height=5,width=10,bd=5,command=lambda:insert(4)).grid(row=2,column=1)
 Button(root,text='5',height=5,width=10,bd=5,command=lambda:insert(5)).grid(row=2,column=2)
-Button(root,text='4',height=5,width=10,bd=5,command=lambda:insert(4)).grid(row=2,column=3)
+Button(root,text='6',height=5,width=10,bd=5,command=lambda:insert(6)).grid(row=2,column=3)
 Button(root,text='+',height=5,width=10,bd=5,command=lambda:insert('+')).grid(row=2,column=4)
 
 Button(root,text='3',height=5,width=10,bd=5,command=lambda:insert(3)).grid(row=3,column=1)

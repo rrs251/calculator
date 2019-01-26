@@ -1,0 +1,2 @@
+PR open for operations by calculator :
+Solve math problems using order of operations like PEMDAS, BEDMAS and BODMAS
